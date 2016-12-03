@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Plantery</title>
+    </head>
+    <body>
+
+      <!-- Header Menu -->
+       <ul class="topnav" id="myTopnav">
+        <li><a href="index.html">Age</a></li>
+        <li ><a href="weight.html">Weight</a></li>
+        <li><a href="#about" class="active">About</a></li>
+        <!--<li class="icon">
+          <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+        </li>-->
+      </ul>
+
+      <!--<header>
+        <div class="nav">
+          <ul>
+            <li class="home"><a href="#">Home</a></li>
+            <li class="age"><a class="active" href="#">Age</a></li>
+            <li class="weight"><a href="#">Weight</a></li>
+            <li class="about"><a href="#">About</a></li>
+          </ul>
+        </div>
+      </header> -->
+
+      <h1>About App</h1>
+      <div class="middle_area">
+        <p>
+          This App shows you your age and weight with respect to Earth, on different planets on solar system.
+          <br> And provides interesting information and live location and time of the planets
+        </p>
+      </div>
+
+      <div class="about">
+        <p> Developers </p>
+        <br>
+        <span style="font-size:4em; line-height: normal; word-spacing:0.3em;"><span style="background:#ce1126;color:#ffffff;font-family:'Verdana', Geneva, sans-serif; font-size:xx-large; box-shadow:-1px 1px 2px #333; text-transform:uppercase; line-height:75%; margin:0.1em; padding:0.3em; vertical-align:-0.1em; ">S</span><span style="background:#006847;color:#ceffef;font-family:'Palatino Linotype', 'Book Antiqua', Palatino, serif; font-size:xx-large; font-weight:lighter; text-transform:lowercase; line-height:100%; margin:0.1em; padding:0.1em; vertical-align:baseline; ">h</span><span style="background:#f15770;color:#000000;font-family:'Times New Roman', Times, serif; font-size:xx-large; font-weight:lighter; box-shadow:-1px -1px 2px #333; text-transform:uppercase; line-height:100%; margin:0.1em; padding:0.2em; vertical-align:-0.1em; ">a</span><span style="background:#0c8489;color:#fbffff;font-family:'Times New Roman', Times, serif; font-size:xx-large; font-weight:bold; box-shadow:-1px 1px 2px #333; text-transform:lowercase; line-height:100%; margin:0.1em; padding:0.2em; vertical-align:baseline; ">n</span></span>
+      </div>
+
+
+        <script type="text/javascript" src="cordova.js"></script>
+
+
+    </body>
+</html>
