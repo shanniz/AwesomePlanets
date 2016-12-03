@@ -1,9 +1,10 @@
 
-Author: Shan
-Created: 2016 December 3
+#Author: Shan
+#Created: 2016 December 3
 Type: Phonegap app
 
-Description: Phonegap App that shows age and weight on different planets with respect to earth.
+#Description: 
+Phonegap App that shows age and weight on different planets with respect to earth.
 
 To run:
 
@@ -18,5 +19,3 @@ cordova run android
 
 Online phonegap build system
 https://build.phonegap.com/
-
-
